@@ -34,7 +34,7 @@ public struct SelectableList<Item: Hashable>: View {
 						Text(detailText(item))
 							.font(.subheadline)
 					}
-				}.selectionDisabled(!canSelectItem(item))
+				}
 			}
 		}
 	}
