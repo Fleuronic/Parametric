@@ -1,10 +1,10 @@
-// swift-tools-version:5.8
+// swift-tools-version:5.6
 import PackageDescription
 
 let package = Package(
 	name: "Parametric",
 	platforms: [
-		.iOS(.v16)
+		.iOS(.v15)
 	],
 	products: [
 		.library(
